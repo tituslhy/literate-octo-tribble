@@ -17,6 +17,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 Coming soon!
 
 ## Repository Layout
+Note that each folder has its own requirements.txt! This is in the event of version conflicts - for example LlamaIndex and Langchain have moved to pydantic v2 but not all the LLM libraries have done the same!
 ```
 .
 ├── LlamaIndex                                  
