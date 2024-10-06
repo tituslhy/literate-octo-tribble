@@ -5,6 +5,8 @@ This little GitHub repository aims to provide very basic cookbook recipes for LL
     <img src="./images/llama_crew.jpg">
 </p>
 
+The aim is to explore the 'multiverse' of LLM land where there are many different tools that handle similar tasks (perfect competitors), each with its own pros and cons. Feel free to request for an article!
+
 ## Roadmap
 1. ~Basic LlamaIndex Recipes for LLMs (up to creating a single agent)~ - Done!
 2. ~Basic Langchain Recipe for LLMs (up to creating a single agent)~ - Done!
