@@ -17,6 +17,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 ## Related articles
 1. [A gentle introduction to the LLM Multiverse (Part 1): Langchain](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multiverse-part-1-langchain-023a899d294e)
 2. **Coming soon! A gentle introduction to the LLM Multiverse (Part 2): Haystack**
+3. **Coming soon! A gentle introduction to the LLM Multiverse (Part 3): LlamaIndex**
 
 ## Repository Layout
 Note that each folder has its own requirements.txt! This is in the event of version conflicts - for example LlamaIndex and Langchain have moved to pydantic v2 but not all the LLM libraries have done the same!
