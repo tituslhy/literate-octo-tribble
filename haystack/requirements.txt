@@ -1,6 +1,5 @@
+google-ai-haystack==2.0.0
 haystack-ai==2.6.0
 haystack-experimental==0.2.0
 mistral-haystack==0.0.2
-google-ai-haystack==2.0.0
 python-dotenv==1.0.1
-farm-haystack==1.26.3
