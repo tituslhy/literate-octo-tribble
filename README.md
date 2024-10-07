@@ -22,14 +22,18 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 Note that each folder has its own requirements.txt! This is in the event of version conflicts - for example LlamaIndex and Langchain have moved to pydantic v2 but not all the LLM libraries have done the same!
 ```
 .
-├── LlamaIndex                                  
+├── Haystack                                
 │   ├── notebooks
-│       ├── the_basics.ipynb              <- Basic recipes for LlamaIndex (up to single agents)
-│   ├── requirements.txt                  <- Requirements.txt for LlamaIndex repository
+│       ├── the_basics.ipynb              <- Basic recipes for Haystack (up to RAG)
+│   ├── requirements.txt                  <- Requirements.txt for Haystack recipe
 ├── Langchain
 │   ├── notebooks
 │       ├── the_basics.ipynb              <- Basic recipes for Langchain (up to single agents)
-│   ├── requirements.txt                  <- Requirements.txt for Langchain repository
+│   ├── requirements.txt                  <- Requirements.txt for Langchain recipe
+├── LlamaIndex                                  
+│   ├── notebooks
+│       ├── the_basics.ipynb              <- Basic recipes for LlamaIndex (up to single agents)
+│   ├── requirements.txt                  <- Requirements.txt for LlamaIndex recipe
 ├── data                                  <- Folder containing data sets for recipes
 │       ├── paul_graham                   
 │           |── paul_graham_essay.txt     <- txt file for RAG
