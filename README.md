@@ -13,6 +13,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 3. ~Basic LlamaIndex Recipe for LLMs (up to creating a single agent)~ - Done!
 4. Basic LlamaIndex Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
 5. Basic Langgraph Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
+6. Basic crewAI Mult Agent Recipes - Upcoming
 
 ## Related articles
 1. [A gentle introduction to the LLM Multiverse (Part 1): Langchain](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multiverse-part-1-langchain-023a899d294e)
