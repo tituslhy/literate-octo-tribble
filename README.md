@@ -17,7 +17,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 
 ## Related articles
 1. [A gentle introduction to the LLM Multiverse (Part 1): Langchain](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multiverse-part-1-langchain-023a899d294e)
-2. [A gentle introduction to the LLM Multiverse (Part 2): Haystack*](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multiverse-part-2-haystack-c6af2548df04)
+2. [A gentle introduction to the LLM Multiverse (Part 2): Haystack](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multiverse-part-2-haystack-c6af2548df04)
 3. [A gentle introduction to the LLM Multiverse (Part 3): LlamaIndex](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multiverse-part-3-llamaindex-798344050c49)
 
 ## Repository Layout
