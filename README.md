@@ -11,8 +11,8 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 1. ~Basic Langchain Recipes for LLMs (up to creating a single agent)~ - Done!
 2. ~Basic Haystack Recipe for LLMs (up to creating a single agent)~ - Done!
 3. ~Basic LlamaIndex Recipe for LLMs (up to creating a single agent)~ - Done!
-4. Basic LlamaIndex Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
-5. Basic Langgraph Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
+4. Basic Langgraph Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
+5. Basic LlamaIndex Multi Agent Recipes (including the creation and deployment of the agents) - Upcoming
 6. Basic crewAI Mult Agent Recipes - Upcoming
 
 ## Related articles
