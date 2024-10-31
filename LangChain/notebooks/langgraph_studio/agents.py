@@ -31,7 +31,7 @@ def supervisor_agent(state):
     supervisor_chain = prompt | llm.with_structured_output(routeResponse)
     return supervisor_chain.invoke(state)
 
-members = ["Researcher", "Mathematician"]
+members = ["Researcher", "Coder"]
 system_prompt = (
     "You are a supervisor tasked with managing a conversation between the"
     " following workers:  {members}. Given the following user request,"
@@ -66,7 +66,7 @@ research_node = functools.partial(
     agent=research_agent,
     name="Researcher" #must match the name in the 'members' list above
 )
-code_agent = create_react_agent(llm, tools=[multiply])
+code_agent = create_react_agent(llm, tools=[python_repl_tool])
 code_node = functools.partial(agent_node, agent=code_agent, name="Coder")
 
 workflow = StateGraph(AgentState)
