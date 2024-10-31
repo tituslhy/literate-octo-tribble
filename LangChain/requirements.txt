@@ -8,6 +8,9 @@ langchain-text-splitters==0.3.0
 langchain-experimental==0.3.2
 langchain-google-genai==2.0.0
 langchain-mistralai==0.2.0
+langchain-openai==0.2.3
+langgraph==0.2.39
+langgraph-checkpoint==2.0.2
 python-dotenv==1.0.1
 pydantic==2.9.2
 pydantic-settings==2.4.0
