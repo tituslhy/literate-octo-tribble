@@ -1,4 +1,4 @@
-.env
+**.env
 
 data/paul_graham_index/
 **qdrant_storage/
