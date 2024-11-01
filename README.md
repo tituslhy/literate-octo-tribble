@@ -32,6 +32,8 @@ Note that each folder has its own requirements.txt! This is in the event of vers
 ├── Langchain
 │   ├── notebooks
 │       ├── the_basics.ipynb              <- Basic recipes for Langchain (up to single agents)
+│       ├── langgraph.ipynb               <- Code book for Langgraph personal assistant app
+│       ├── langgraph_studio              <- Files for loading into the Langgraph Studio software
 │   ├── requirements.txt                  <- Requirements.txt for Langchain recipe
 ├── LlamaIndex                                  
 │   ├── notebooks
