@@ -1,4 +1,5 @@
 **.env
+**.DS_Store
 
 data/paul_graham_index/
 **qdrant_storage/
