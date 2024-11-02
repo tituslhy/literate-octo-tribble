@@ -2,6 +2,7 @@
 
 data/paul_graham_index/
 **qdrant_storage/
+**.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
