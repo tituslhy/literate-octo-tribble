@@ -4,13 +4,13 @@ from datetime import datetime, timedelta
 
 # Define the ticker symbol and date range
 ticker_symbol = 'ILMN'
-end_date = datetime(2024, 11, 2)
-start_date = end_date - timedelta(days=30)
+end_date = datetime.now()
+start_date = end_date - timedelta(days=365)
 
-# Fetch historical stock data
+# Fetch historical stock data for the last 12 months
 data = yf.download(ticker_symbol, start=start_date, end=end_date)
 
-# Calculate percentage change over the month
+# Calculate percentage change over the 12 months
 data['Percentage Change'] = ((data['Close'] - data['Close'].iloc[0]) / data['Close'].iloc[0]) * 100
 
 # Identify the highest and lowest stock prices during this period
