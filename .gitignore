@@ -1,5 +1,6 @@
 **.env
 **.DS_Store
+.env.openai
 
 data/paul_graham_index/
 **qdrant_storage/
