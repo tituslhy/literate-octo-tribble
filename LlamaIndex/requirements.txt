@@ -6,6 +6,7 @@ langgraph-checkpoint==2.0.2
 langgraph-checkpoint-sqlite==2.0.1
 llama-index==0.11.16
 llama-index-core==0.11.16
+llama-index-llms-gemini==0.3.5
 llama-index-embeddings-gemini==0.2.0
 llama-index-llms-mistralai==0.2.5
 python-dotenv==1.0.1

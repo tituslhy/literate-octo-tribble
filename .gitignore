@@ -1,3 +1,4 @@
+**.pdf
 **.env
 **.DS_Store
 .env.openai
@@ -5,6 +6,7 @@
 data/paul_graham_index/
 **qdrant_storage/
 **.DS_Store
+investopedia_storage/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
