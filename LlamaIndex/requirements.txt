@@ -4,12 +4,13 @@ langchain-openai==0.2.3
 langgraph==0.2.45
 langgraph-checkpoint==2.0.2
 langgraph-checkpoint-sqlite==2.0.1
-llama-index==0.11.16
-llama-index-core==0.11.16
+llama-index==0.11.22
+llama-index-core==0.11.22
 llama-index-llms-gemini==0.3.5
 llama-index-llms-ollama==0.3.6
 llama-index-embeddings-gemini==0.2.0
 llama-index-llms-mistralai==0.2.5
+llama-index-utils-workflow==0.2.2
 openinference-instrumentation-langchain==0.1.29
 openinference-instrumentation-llama-index==3.0.0
 python-dotenv==1.0.1
