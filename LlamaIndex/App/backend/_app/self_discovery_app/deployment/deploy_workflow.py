@@ -1,14 +1,6 @@
-import os
-import sys
-
 from llama_deploy import deploy_workflow, WorkflowServiceConfig
-
-__curdir__ = os.getcwd()
-if "deployment" in __curdir__:
-    sys.path.append("../workflows")
-
-from core import control_plane_config
-from selfdiscovery import SelfDiscoverWorkflow
+from self_discovery_app.deployment.core import control_plane_config
+from self_discovery_app.workflows.selfdiscovery import SelfDiscoverWorkflow
 
 if __name__ == "__main__":
     import asyncio

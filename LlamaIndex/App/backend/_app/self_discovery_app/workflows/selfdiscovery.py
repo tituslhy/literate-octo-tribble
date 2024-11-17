@@ -1,3 +1,5 @@
+#%%
+
 from llama_index.core.workflow import (
     Workflow,
     step,
@@ -225,3 +227,4 @@ class SelfDiscoverWorkflow(Workflow):
         return StopEvent(
             result=str(result) + " ||History||: " + json.dumps(self.process_chat_history())
         )
+# %%

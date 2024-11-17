@@ -43,4 +43,4 @@ ENV PATH="${VIRTUAL_ENV}/bin:${PATH}"
 
 # Copy source code
 COPY ./logging.ini ./logging.ini
-COPY ./_app/multi_workflows_app ./multi_workflows_app
+COPY ./_app/self_discovery_app ./self_discovery_app
