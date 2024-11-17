@@ -1,8 +1,8 @@
 **.pdf
-**.env
+.env
+.env.openai
 **.DS_Store
 .env.openai
-**App/
 
 data/paul_graham_index/
 **qdrant_storage/
