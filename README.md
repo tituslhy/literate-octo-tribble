@@ -22,6 +22,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 3. [A gentle introduction to the LLM Multiverse (Part 3): LlamaIndex](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multiverse-part-3-llamaindex-798344050c49)
 4. [A gentle introduction to the LLM Multi-Agents Multiverse (Part 1): Langgraph](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multi-agents-multiverse-part-1-langgraph-2ac56f1b5b3c)
 5. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 2): Autogen](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-2-autogen-5401a0075d75)
+6. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 3a): LlamaIndex Workflows](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-3a-llamaindex-workflows-c0f614c15b88)
 
 ## Repository Layout
 Note that each folder has its own requirements.txt! This is in the event of version conflicts - for example LlamaIndex and Langchain have moved to pydantic v2 but not all the LLM libraries have done the same!
@@ -46,8 +47,10 @@ Note that each folder has its own requirements.txt! This is in the event of vers
 │   ├── requirements.txt                  <- Requirements.txt for LangChain and Langgraph codes
 ├── LlamaIndex                                  
 │   ├── notebooks
-│       ├── the_basics.ipynb              <- Basic recipes for LlamaIndex (up to single agents)
-│   ├── requirements.txt                  <- Requirements.txt for LlamaIndex recipe
+│       ├── 1. the_basics.ipynb            <- Basic recipes for LlamaIndex (up to single agents)
+│       ├── 2. workflow.ipynb              <- Basic recipes for LlamaIndex Workflows
+│       ├── 3. deployment.ipynb            <- Basic recipes for LlamaIndex Workflow HITL and deployment
+│   ├── requirements.txt                  <- Requirements.txt for LlamaIndex recipes
 ├── data                                  <- Folder containing data sets for recipes
 │       ├── paul_graham                   
 │           |── paul_graham_essay.txt     <- txt file for RAG
