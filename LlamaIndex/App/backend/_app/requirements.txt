@@ -1,0 +1,7 @@
+llama-index==0.11.23
+llama-index-core==0.11.23
+llama-index-llms-openai==0.2.11
+llama-index-agent-openai==0.3.4
+llama-deploy==0.2.0
+kafka-python-ng==2.2.3
+aiokafka==0.11.0
