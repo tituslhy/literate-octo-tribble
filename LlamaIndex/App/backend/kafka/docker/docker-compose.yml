@@ -29,15 +29,15 @@ services:
       timeout: 10s
       retries: 5
   control_plane:
-    image: multi_workflows_app:latest
-    command: sh -c "python -m multi_workflows_app.deployment.core"
+    image: self_discovery_app:latest
+    command: sh -c "python -m self_discovery_app.deployment.core"
     env_file:
       - ./kafka/docker/.env.kafka
       - ./.env.docker
     ports:
       - "8000:8000"
     volumes:
-      - ./_app/multi_workflows_app:/app/multi_workflows_app # load local code change to container without the need of rebuild
+      - ./_app/self_discovery_app:/app/self_discovery_app # load local code change to container without the need of rebuild
       - ./logging.ini:/app/logging.ini
     depends_on:
       kafka:
@@ -53,8 +53,8 @@ services:
       start_period: 20s
       timeout: 10s
   self_discovery_workflow:
-    image: multi_workflows_app:latest
-    command: sh -c "python -m multi_workflows_app.deployment.deploy_workflow"
+    image: self_discovery_app:latest
+    command: sh -c "python -m self_discovery_app.deployment.deploy_workflow"
     env_file:
       - ./kafka/docker/.env.kafka
       - ./.env.docker
@@ -62,7 +62,7 @@ services:
     ports:
       - "8001:8001"
     volumes:
-      - ./_app/multi_workflows_app:/app/multi_workflows_app # load local code change to container without the need of rebuild
+      - ./_app/self_discovery_app:/app/self_discovery_app # load local code change to container without the need of rebuild
       - ./logging.ini:/app/logging.ini
     platform: linux/amd64
     depends_on:
