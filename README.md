@@ -13,7 +13,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 3. ~Basic LlamaIndex Recipe for LLMs (up to creating a single agent)~ - Done!
 4. ~Basic Langgraph Multi Agent Recipes (building a personal assistant)~ - Done!
 5. ~Basic Autogen Multi Agent Recipes (building a stock assistant)~ - Done!
-6. Basic LlamaIndex Multi Agent Recipes - Upcoming
+6. ~Basic LlamaIndex Multi Agent Recipes~ - Done!
 7. Basic crewAI Mult Agent Recipes - Upcoming
 
 ## Related articles
@@ -23,6 +23,8 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 4. [A gentle introduction to the LLM Multi-Agents Multiverse (Part 1): Langgraph](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multi-agents-multiverse-part-1-langgraph-2ac56f1b5b3c)
 5. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 2): Autogen](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-2-autogen-5401a0075d75)
 6. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 3a): LlamaIndex Workflows](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-3a-llamaindex-workflows-c0f614c15b88)
+7. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 3b): Deploying LlamaIndex Workflows](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-3b-deploying-llamaindex-workflows-df18381d36b9)
+
 
 ## Repository Layout
 Note that each folder has its own requirements.txt! This is in the event of version conflicts - for example LlamaIndex and Langchain have moved to pydantic v2 but not all the LLM libraries have done the same!
@@ -45,11 +47,14 @@ Note that each folder has its own requirements.txt! This is in the event of vers
 │       ├── langgraph.ipynb               <- Code book for Langgraph personal assistant app
 │       ├── langgraph_studio              <- Files for loading into the Langgraph Studio software
 │   ├── requirements.txt                  <- Requirements.txt for LangChain and Langgraph codes
-├── LlamaIndex                                  
+├── LlamaIndex
+│   ├── App      
+│       ├── backend                       <- Llama Deploy backend
+│       ├── frontend                      <- Chainlit frontend for self discovery app
 │   ├── notebooks
-│       ├── 1. the_basics.ipynb            <- Basic recipes for LlamaIndex (up to single agents)
-│       ├── 2. workflow.ipynb              <- Basic recipes for LlamaIndex Workflows
-│       ├── 3. deployment.ipynb            <- Basic recipes for LlamaIndex Workflow HITL and deployment
+│       ├── 1. the_basics.ipynb           <- Basic recipes for LlamaIndex (up to single agents)
+│       ├── 2. workflow.ipynb             <- Basic recipes for LlamaIndex Workflows
+│       ├── 3. deployment.ipynb           <- Basic recipes for LlamaIndex Workflow HITL and deployment
 │   ├── requirements.txt                  <- Requirements.txt for LlamaIndex recipes
 ├── data                                  <- Folder containing data sets for recipes
 │       ├── paul_graham                   
