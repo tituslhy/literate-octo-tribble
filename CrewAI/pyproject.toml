@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "crewai recipes"
+version = "0.1.0"
+description = "Basic CrewAI recipes for multi-agent systems"
+authors = ["Titus Lim <tituslhy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11, <=3.13"
+crewai = "^0.80.0"
+litellm = "^1.52.14"
+chainlit = "^1.3.2"
+openai = "^1.55.0"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
