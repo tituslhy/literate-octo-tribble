@@ -1,0 +1,14 @@
+profiling_task:
+  description: >
+    Analyze the job description to identify main skill requirements for the job.
+    Highlight the role's technical and non-technical expectations.
+  expected_output: >
+    A list of 10 main skill requirements for each job description.
+
+interview_prep_task:
+  description: >
+    Prepare a comprehensive interview preparation document for the candidate's preparation process.
+    Develop at least 10 questions and sample answers based on the job requirements and the candidate's
+    profile.
+  expected_output: >
+    A Q&A document with at least 10 sample questions and answers for the interview for each job listing.
