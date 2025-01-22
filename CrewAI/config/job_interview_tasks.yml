@@ -1,0 +1,17 @@
+interview_prep_task:
+  description: >
+    Prepare a comprehensive interview preparation document for the candidate's preparation process.
+    Develop at least 10 questions and sample answers based on the job requirements and the candidate's
+    profile.
+
+    candidate_profile: {candidate_profile}
+    job_listing: {job_listing}    
+  expected_output: >
+    A Q&A document with at least 10 sample questions and answers for the interview for each job listing.
+
+conversation_starter_task:
+  description: >
+    Based on the candidate's profile and the job description, develop a short elevator pitch for the
+    candidate to use at his interview to answer the question "tell me more about yourself"
+  expected_output: >
+    A customized elevator pitch for the job listing.

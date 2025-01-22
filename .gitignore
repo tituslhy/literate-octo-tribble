@@ -1,4 +1,6 @@
+**.json
 **.pdf
+**Resume/
 .env
 .env.openai
 **.DS_Store

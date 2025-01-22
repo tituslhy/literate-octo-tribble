@@ -1,0 +1,36 @@
+candidate_profiling_task:
+  description: >
+    Analyze the candidate's resume to identify their main strengths and qualifications.
+    Highlight the candidate's technical and non-technical abilities to determine their suitability 
+    for specific job roles.
+
+research_job_listings_task:
+  description: >
+    Conduct thorough research to find potential job listings for the candidate.
+    Utilize various online resources and databases to gather a comprehensive list of potential listings.
+    Ensure that you meet the candidate's preferred job requirements.
+
+    Job Requirements:
+    {job_requirements}
+
+  expected_output: >
+    A list of 10 potential job listings with brief job listing profiles highlighting their suitability.
+
+match_and_score_listings_task:
+  description: >
+    Evaluate and match the job listings to the candidate based on their qualifications and suitability.
+    Score each job listing to reflect their alignment with the candidate's profile, ensuring a fair 
+    and transparent assessment process. 
+  expected_output: >
+    A ranked list of top 3 listings with detailed scores and justifications for each job position.
+
+cover_letter_task:
+  description: >
+    Write a compelling cover letter for the candidate for the top job description.
+    The cover letter must be crisp and elegantly written, giving the employers good reasons
+    on the candidate's fit to the role. It should be at least 300 words long
+    including salutations and signing off. Cover the candidate's 2 of the candidate's
+    most impressive work experience and highlight the technical depth and rigor
+    of these projects as well as their fit to the job listing.
+  expected_output: >
+    A compelling cover letter expressing the candidate's fit to the top 3 job listings.
