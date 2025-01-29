@@ -14,7 +14,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 4. ~Basic Langgraph Multi Agent Recipes (building a personal assistant)~ - Done!
 5. ~Basic Autogen Multi Agent Recipes (building a stock assistant)~ - Done!
 6. ~Basic LlamaIndex Multi Agent Recipes~ - Done!
-7. Basic crewAI Mult Agent Recipes - Upcoming
+7. ~Basic crewAI Mult Agent Recipes~ - Done!
 
 ## Related articles
 1. [A gentle introduction to the LLM Multiverse (Part 1): Langchain](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multiverse-part-1-langchain-023a899d294e)
@@ -24,6 +24,7 @@ The aim is to explore the 'multiverse' of LLM land where there are many differen
 5. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 2): Autogen](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-2-autogen-5401a0075d75)
 6. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 3a): LlamaIndex Workflows](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-3a-llamaindex-workflows-c0f614c15b88)
 7. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 3b): Deploying LlamaIndex Workflows](https://medium.com/@tituslhy/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-3b-deploying-llamaindex-workflows-df18381d36b9)
+8. [A gentle introduction to the LLM Multi-Agent Multiverse (Part 4): CrewAI](https://medium.com/mitb-for-all/a-gentle-introduction-to-the-llm-multi-agent-multiverse-part-4-crewai-147ada6db54c)
 
 
 ## Repository Layout
@@ -37,6 +38,12 @@ Note that each folder has its own requirements.txt! This is in the event of vers
 │       ├── report.md                     <- Final report generated
 │   ├── requirements.txt                  <- Requirements.txt for Autogen code
 │   ├── AutogenStudio                     <- Snapshots of AutogenStudio executions
+├── CrewAI
+│   ├── notebooks
+│       ├── basics.ipynb                  <- Code book for CrewAI Employment Hero Multi Agent System
+│   ├── pyproject.toml                    <- Requirements for CrewAI code
+│   ├── poetry.lock                       <- Poetry lock file for Autogen code
+│   ├── Config                            <- Yaml file configurations of tasks and agents
 ├── Haystack                                
 │   ├── notebooks
 │       ├── the_basics.ipynb              <- Basic recipes for Haystack (up to RAG)
